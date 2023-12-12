@@ -1,0 +1,91 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Lato', sans-serif;
+}
+
+body{
+background: linear-gradient(to bottom, #6ab7f5, #fff);
+min-height: 100vh;
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+}
+
+h1{
+    letter-spacing: 5px;
+
+}
+
+#pokeContainer{
+    display: grid;
+    grid-template-columns: 200px 200px 200px;
+    list-style: none;
+    margin-top: 50px;
+}
+
+#pokeContainer li{
+    padding-left: 20px;
+    border-radius: 20px;
+    background-color: #eee;
+    justify-content: space-between;
+    margin-right: 20px;
+    margin-bottom: 30px;
+    padding-bottom: 20px;
+}
+
+#pokImg{
+    height: 130px;
+}
+
+#btnPok{
+    margin-left: 70px;
+    margin-top: 10px;
+    background-color: rgb(253, 136, 136);
+    border: none;
+    padding: 7px;
+    border-radius: 10px;
+}
+
+.pokemon{
+    background-color: #ffcaa7;
+    border-radius: 10px;
+    box-shadow: 0 3px 15px rgba(100, 100, 100, 0.5);
+    margin: 10px;
+    padding: 20px;
+    text-align: center;
+}
+
+.imgContainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(255, 255, 255, 0.6);
+    border-radius: 50%;
+    width: 120px;
+    height: 120px;
+    text-align: center;
+}
+
+.imgContainer{
+    max-width: 90%;
+    margin-top: 20px;
+}
+
+.info{
+    margin-top: 20px;
+}
+
+.number{
+    background-color: rgba(0, 0, 0, 0.15) ;
+    padding: 3px, 13px;
+    border-radius: 19px;
+    font-size: 0.8rem;
+}
+
+.name{
+    margin: 15px 0 7px;
+    letter-spacing: 1.5px;
+}
